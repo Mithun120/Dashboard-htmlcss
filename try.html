@@ -1,0 +1,331 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge"> 
+	<meta name="viewport"
+		content="width=device-width, 
+				initial-scale=1.0"> 
+	<title>Admin Dashboard</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="icon" href="https://th.bing.com/th/id/OIP.n6RYA9NN4M0fWyVV3tPavQHaHz?w=177&h=186&c=7&r=0&o=5&pid=1.7" type="image/icon type">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet"
+		href="new.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-KyZXEAg3QhqLMpG8r+Knujsl5+z0I5t9oTjgfAFMye2o2lFAiBfu66VvfTtmIzU0JFkL9urlciRsZLXfMzH/Fg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+</head> 
+
+<body> 
+	<header> 
+<!--HEAD NAVBAR-->
+		<div class="logosec"> 
+			<img src= 
+"https://th.bing.com/th/id/OIP.cDBSWvUtXchUB3mZRgNWKgHaCh?w=349&h=119&c=7&r=0&o=5&pid=1.7"
+				class="icn menuicn"
+				id="menuicn"
+				alt="menu-icon" width="80px"> 
+		</div> 
+        <h3>Dashboard</h3>
+		<div class="searchbar"> 
+			<input type="text"
+				placeholder="Search"> 
+			<div class="searchbtn"> 
+			<img src= 
+"https://cdn.dribbble.com/users/1677939/screenshots/8817404/media/a6ec6a445f607c21a68b15bb07b2b25c.jpg"
+					class="icn srchicn"
+					alt="search-icon" style="height: 30px;"> 
+			</div> 
+		</div> 
+
+		<div class="message"> 
+			<div class="circle"></div> 
+			<i class="bi bi-bell-fill" style="color: red; font-size: 25px;"></i>
+			<div class="dp"> 
+			<img src= 
+"https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png"
+					class="dpicn"
+					alt="dp"> 
+			</div> 
+		</div> 
+
+	</header> 
+<!-- Side Navbar -->
+	<div class="main-container"> 
+		<div class="navcontainer"> 
+			<nav class="nav"> 
+				<div class="nav-upper-options"> 
+					<div class="nav-option option1"> 
+						<i class="bi bi-activity"></i>
+						<h3> Dashboard</h3> 
+					</div> 
+
+					<div class="option2 nav-option"> 
+						<i class="bi bi-wallet-fill"></i>
+						<h3> Payment</h3> 
+					</div> 
+
+					<div class="nav-option option3"> 
+						<i class="bi bi-send-arrow-up-fill"></i>
+						<h3> Planning</h3> 
+					</div> 
+
+					<div class="nav-option option4"> 
+						<i class="bi bi-capslock-fill"></i>
+						<h3> Transaction</h3> 
+					</div> 
+
+					<div class="nav-option option5"> 
+						<i class="bi bi-people-fill"></i>
+						<h3> Profile</h3> 
+					</div> 
+
+					<div class="nav-option option6"> 
+						<i class="bi bi-gear-fill"></i>
+						<h3> Settings</h3> 
+					</div> 
+
+					<div class="nav-option logout"> 
+						<img src= 
+"https://cdn0.iconfinder.com/data/icons/interface-icons-rounded/110/Logout-1024.png"
+							class="nav-img"
+							alt="logout"> 
+						<h3>Logout</h3> 
+					</div> 
+                    <div class="sidebar-report">
+                        <h5>Found a bug?</h5>
+            
+                        <p><justify>Report now to us if you find any bugs</justify></p>
+            
+                        <button style="cursor: pointer;">Report</button>
+                      </div>
+            
+				</div> 
+			</nav> 
+		</div> 
+		<!-- Main Content -->
+		<div class="main"> 
+			<div class="box-container"> 
+				<div class="col">
+					<img src= 
+"https://th.bing.com/th/id/OIP.X7LAoGR-k-391vQHkcuDcwHaHa?w=198&h=199&c=7&r=0&o=5&pid=1.7"
+						class="icn srchicn"
+						alt="search-button"> 
+					<div class="border rounded p-3">Balance</div>
+					<h4>$543.254</h4>
+				  </div>
+				  <div class="col">
+					<img src= 
+"https://th.bing.com/th/id/OIP.vIRSpV1B6ofTuMhD_4FcGgHaHa?w=180&h=180&c=7&r=0&o=5&pid=1.7"
+						class="icn srchicn"
+						alt="search-button">
+					<div class="border rounded p-3">Income</div>
+					<h4>$213.465</h4>
+				  </div>
+				  <div class="col">
+					<img src= 
+					"https://th.bing.com/th/id/OIP.PwzbLcMTdxCCIVWXUVwfiAHaHa?w=176&h=180&c=7&r=0&o=5&pid=1.7"
+											class="icn srchicn"
+											alt="search-button">					<div class="border rounded p-3">Savings</div>
+					<h4>$132.721</h4>
+				  </div>
+				  <div class="col">
+					<img src= 
+"https://th.bing.com/th/id/OIP.LSjIvh2gV17pIned9w9XzwHaHa?w=196&h=180&c=7&r=0&o=5&pid=1.7"
+						class="icn srchicn"
+						alt="search-button">
+					<div class="border rounded p-3">Expenses</div>
+					<h4>$99.345</h4>
+				  </div>
+
+				</div>
+							<!-- for seperation -->
+							
+                                <div class="report-container"> 
+								<!-- Graph chart -->
+								<br>
+				<h3>Money Flow</h3>
+              <br>
+
+				<div class="report-header"> 
+                    
+					<svg class='container' width="529px" height="286px" viewBox="30 27 529 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			  
+						<defs></defs>
+						<g id="graph-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(30.000000, 27.000000)">
+							<g id="y_axis" font-size="11.0833333" font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface" fill="#000000" font-weight="bold">
+								<text id="0">
+									<tspan x="25.3008249" y="264.333333">0</tspan>
+								</text>
+								<text id="200">
+									<tspan x="12.7757572" y="232.666667">200</tspan>
+								</text>
+								<text id="400">
+									<tspan x="12.7757572" y="201">400</tspan>
+								</text>
+								<text id="600">
+									<tspan x="12.7757572" y="169.333333">600</tspan>
+								</text>
+								<text id="800">
+									<tspan x="12.7757572" y="137.666667">800</tspan>
+								</text>
+								<text id="1000">
+									<tspan x="6.51322328" y="106">1000</tspan>
+								</text>
+								<text id="1200">
+									<tspan x="6.51322328" y="74.3333333">1200</tspan>
+								</text>
+								<text id="1400">
+									<tspan x="6.51322328" y="42.6666667">1400</tspan>
+								</text>
+								<text id="1600">
+									<tspan x="6.51322328" y="11">1600</tspan>
+								</text>
+							</g>
+							<g id="GRAPHS" transform="translate(64.000000, 16.000000)" stroke-linecap="round" stroke-width="8" stroke-linejoin="round">
+								<polyline id="Banks" stroke="blue" points="0 1 88.0438662 1 128.985782 137 180.170616 137 224.189573 182 256.947867 91 301.990521 137 346.009479 91 392.087202 91 429.952607 179"></polyline>
+								<polyline id="Bridge" stroke="orange" points="2.04739336 183 54.2559242 227 96.2274882 47 133.080569 1 302.018438 1 346.680361 44.6280822 386.957346 0 427.905213 43"></polyline>
+								<polyline id="PayPal" stroke="brown" points="2.04739336 180 53.273159 180 99.2985782 91 137.175355 47 219.077488 47 256.947867 90 301.990521 47 349.080569 137 398.228672 137 432 91"></polyline>
+							</g>
+							<g id="x_axis" transform="translate(71.974046, 271.541667)" font-size="11.0833333" font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface" fill="#000000"  font-weight="bold">
+								<text id="1">
+									<tspan x="0.396183206" y="11">1</tspan>
+								</text>
+								<text id="2">
+									<tspan x="39.2603361" y="11">2</tspan>
+								</text>
+								<text id="3">
+									<tspan x="78.8786567" y="11">3</tspan>
+								</text>
+								<text id="4">
+									<tspan x="118.496977" y="11">4</tspan>
+								</text>
+								<text id="5">
+									<tspan x="158.115298" y="11">5</tspan>
+								</text>
+								<text id="6">
+									<tspan x="197.733619" y="11">6</tspan>
+								</text>
+								<text id="7">
+									<tspan x="237.351939" y="11">7</tspan>
+								</text>
+								<text id="8">
+									<tspan x="276.97026" y="11">8</tspan>
+								</text>
+								<text id="9">
+									<tspan x="316.58858" y="11">9</tspan>
+								</text>
+								<text id="10">
+									<tspan x="359.229833" y="11">10</tspan>
+								</text>
+								<text id="11">
+									<tspan x="400.036703" y="11">11</tspan>
+								</text>
+								<text id="12">
+									<tspan x="438.466474" y="11">12</tspan>
+								</text>
+							</g>
+							<g id="grid" transform="translate(46.618321, 4.750000)" stroke="#000000" stroke-linecap="square" opacity="0.0800000057">
+								<path d="M0.396183206,1.1875 L478.991396,1.1875" id="Line"></path>
+								<path d="M0.396183206,32.8541667 L478.991396,32.8541667" id="Line"></path>
+								<path d="M0.396183206,64.5208333 L478.991396,64.5208333" id="Line"></path>
+								<path d="M0.396183206,96.1875 L478.991396,96.1875" id="Line"></path>
+								<path d="M0.396183206,127.854167 L478.991396,127.854167" id="Line"></path>
+								<path d="M0.396183206,159.520833 L478.991396,159.520833" id="Line"></path>
+								<path d="M0.396183206,191.1875 L478.991396,191.1875" id="Line"></path>
+								<path d="M0.396183206,222.854167 L478.991396,222.854167" id="Line"></path>
+								<path d="M0.396183206,254.520833 L478.991396,254.520833" id="Line"></path>
+							</g>
+						</g>
+					</svg>
+				</div> 
+				
+			</div> <br>
+            <div class="flex-container">
+                <div  style="flex-grow: 1;">
+			<h4>Transaction</h4><br>
+			<div class="flex-container">
+				<div style="flex-grow: 1;">
+					<img src="https://th.bing.com/th/id/OIP.3vzEye76-RasL7AriR8SAAHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7" style="height: 50px;">
+					
+				</div>
+				<div style="flex-grow: 1;"><h4>Photo shop</h4>
+				<p>May 10,22 at 8.26pm</p></div>
+				<div style="flex-grow: 1;color:red;font-weight: bold;">$3</div>  
+			  </div><br>
+			  <div class="flex-container">
+				<div style="flex-grow: 1;">
+					<img src="https://th.bing.com/th?id=OSK.286918f937530c5088e6b416388b17e6&w=156&h=112&c=7&o=6&pid=SANGAM" style="height: 35px;">
+					
+				</div>
+				<div style="flex-grow: 1;"><h4>Sketch</h4>
+				<p>Jan 10,24 at 3.26pm</p></div>
+				<div style="flex-grow: 1;color:red;font-weight: bold;">$8</div>  
+			  </div><br>
+			  <div class="flex-container">
+				<div style="flex-grow: 1;">
+					<img src="data:image/jpeg;base64,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" style="height: 59px">
+					
+				</div>
+				<div style="flex-grow: 1;"><h4>Antonson</h4>
+				<p>May 10,22 at 8.26pm</p></div>
+				<div style="flex-grow: 1;color:red;font-weight: bold;">$10</div> 
+			  </div><br>
+			  <h4>Planning</h4><br>
+			  <div class="flex-container">
+				<div style="flex-grow: 1;"><h5>Buy a house</h5></div>
+				<div style="flex-grow: 1;"> <progress id="file" value="32" max="100"> 32% </progress>
+			</div>
+				<div style="flex-grow: 1;">$300</div>  
+			  </div>
+			  <br>
+			  <div class="flex-container">
+				<div style="flex-grow: 1;"><h5>Visit  Japan !</h5></div>
+				<div style="flex-grow: 1;"> <progress id="file" value="32" max="100"> 50% </progress>
+			</div>
+				<div style="flex-grow: 1;">$490</div>  
+			  </div> 
+			  </div>
+              
+			  <div>
+                <img src="https://static.vecteezy.com/system/resources/previews/009/384/393/original/credit-card-clipart-design-illustration-free-png.png" style="width: 300px;">
+                <br>
+                <div class="flex-container">
+                    <div style="flex-grow:0.9;"><h4>Your balance</h4>
+                    <h6>$456.234</h6></div>
+                    <div>
+                        <h4>Traffic/week</h4>
+                        <h6 style="color: red;">0.56%</h6>
+                    </div>
+                    
+                </div>
+                <br>
+                <div class="flex-container">
+                    <div style="flex-grow:2;"><h5>Currency</h5>
+                    <h6>US/Dollar</h6></div>
+                    <div style="flex-grow:2;">
+                        <h5>status</h5>
+                        <h6 >Active</h6>
+                    </div>
+                    <div style="flex-grow:2;"><h5>Exp</h5>
+                    <h6>
+                        12/14
+                    </h6></div>
+                </div>
+                <br>
+                <button type="button" class="button-new">+ Add new card</button>
+				</div> 
+                </div></div>
+                
+			</div> </div>
+							
+		</div> 
+	</div> 
+
+</body> 
+</html>
